@@ -3,61 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammad Khalid - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Henny+Penny&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Henny+Penny&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <title>Hammad Khalid</title>
-    <style>
-    body {
-      background: linear-gradient(to right, #f9f9f9, #eaeaea);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .profile-pic {
-      border-radius: 50%;
-      border: 3px solid white;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-    }
-    </style>
 </head>
 <body>
     <header>
-        <!-- <div class="header-container">
-            <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Hammad Khalid</h1>
+            <p>Computer Science Graduate | Full Stack Developer</p>
+            <div class="oval-profile-container">
+            <div class="oval-img-wrapper">
+                <img src="./Content/pic.png" alt="Hammad Khalid" class="oval-profile-img">
+            </div>
         </div>
-        <div class="header-profile">
-            <div class="header-text">
-                <h2 id="header-name"></h2>
-                <p>Web Developer | Designer | Content Creator</p>
-                <p>Welcome to my portfolio! Here you can find my latest projects and contact information.</p>
-            </div>
-
-            <div class="header-image">
-            <img src="./Content/pic.png" alt="Profile Picture">
-            </div>
-
-        </div> -->
-        <img src="./Content/pic.png" alt="Profile Picture" class="profile-pic">
-        
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Motivated and results-driven Computer Science graduate with hands-on experience in Android development, web development, computer vision, and backend systems.</p>
+                    <p>Proficient in Java, Kotlin, C++, Python, React, and other modern technologies, with a strong foundation in data structures, algorithms, and machine learning.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> hammad2khalid@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +44 7438 459541</p>
+                        <p><i class="fas fa-map-marker-alt"></i> London, United Kingdom</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Bachelor of Computer Science</h4>
+                        <p>Fast Nuces (Islamabad) | 2019 - 2023</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Pre Engineering (Fsc)</h4>
+                        <p>Army Public College | 2017 - 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Java/Kotlin</li>
+                        <li>Assembly Language</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Platforms</h3>
+                    <ul>
+                        <li>React JS</li>
+                        <li>React Native</li>
+                        <li>Node.js</li>
+                        <li>Firebase</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Specializations</h3>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Computer Vision</li>
+                        <li>Natural Language Processing</li>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Android and Web Developer</h3>
+                <p class="company">Devlogix Ltd (London) | July 2023 - Present</p>
+                <ul>
+                    <li>Developed Android applications using Java and Kotlin, ensuring high performance and user-friendly interfaces.</li>
+                    <li>Contributed to web development projects using React Native, focusing on building responsive and efficient web applications.</li>
+                    <li>Collaborated with cross-functional teams to design, develop, and implement software solutions that meet client requirements.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Backend Developer (Part time)</h3>
+                <p class="company">Lancers (Islamabad)</p>
+                <ul>
+                    <li>Completed 20+ projects focused on Genome Data and Data Structures, specifically implementing linked lists, hashing, and hashing with linked lists in C++.</li>
+                    <li>Gained hands-on experience in efficiently storing, searching, and deleting genetic sequences.</li>
+                    <li>Strengthened problem-solving skills and deepened understanding of data structures' applications in genomics.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Computer Vision and ML (Intern)</h3>
+                <p class="company">Data Insight Lab (Islamabad)</p>
+                <ul>
+                    <li>Worked with cutting-edge computer vision techniques, including YOLO, RCNN, and SSD.</li>
+                    <li>Responsible for evaluating and assessing the performance of object detection and image recognition models.</li>
+                    <li>Conducted rigorous testing and analysis to identify strengths, weaknesses, and real-world applicability of various models.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Exploratory Data Analysis and NLP on Urdu Speech Dataset</h3>
+                    <p>Conducted EDA on a curated Urdu speech dataset, examining speech sample distribution across domains, speakers, and durations.</p>
+                    <p>Applied NLP downstream tasks including speech recognition, speaker identification, sentiment analysis, and topic classification.</p>
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Large Scale Data Structure</h3>
+                    <p>Implemented a genome dataset containing 5.2 million entries using a hash table with chaining.</p>
+                    <p>Reduced search and insertion complexity, ensuring efficient retrieval and storage of genomic data.</p>
+                </div>
+                <div class="project-card">
+                    <h3>HereIAM (App)</h3>
+                    <p>Integrated behavioural profiling in Python to predict device usage and turn-on times.</p>
+                    <p>Developed a data protection and device recovery solution using React, Node.js, and Firebase.</p>
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hammad Khalid. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
